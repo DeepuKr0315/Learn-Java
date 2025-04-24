@@ -1,5 +1,5 @@
 package Linked_List;
-class LinkedList{
+class linkedList{
     private class Node{
         int data;
         Node next;
@@ -69,7 +69,7 @@ class LinkedList{
 }
 public class Linked_List {
     public static void main(String[] args) {
-        LinkedList list = new LinkedList();
+        linkedList list = new linkedList();
 
         list.addAtHead(3);
         list.addAtHead(2);
