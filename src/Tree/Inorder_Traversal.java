@@ -23,6 +23,6 @@ public class Inorder_Traversal {
         TreeNode root = new TreeNode(1);
         root.left = new TreeNode(2);
         root.right = new TreeNode(3);
-        System.out.println(inorderTraversal(root));
+        System.out.println("Inorder Traversal: " + inorderTraversal(root));
     }
 }
