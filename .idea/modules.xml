@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-<<<<<<< HEAD
-      <module fileurl="file://$PROJECT_DIR$/LearnJavaDSA.iml" filepath="$PROJECT_DIR$/LearnJavaDSA.iml" />
-=======
-      <module fileurl="file://$PROJECT_DIR$/Problem solving using JAVA.iml" filepath="$PROJECT_DIR$/Problem solving using JAVA.iml" />
->>>>>>> 73d7ced (kthSmallestElement)
+      <module fileurl="file://$PROJECT_DIR$/Problem Solving using JAVA.iml" filepath="$PROJECT_DIR$/Problem Solving using JAVA.iml" />
     </modules>
   </component>
 </project>
