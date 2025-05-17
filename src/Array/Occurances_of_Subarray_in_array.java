@@ -53,9 +53,28 @@ public class Occurances_of_Subarray_in_array {
         return res;
     }
 
+    static List<Integer> approach2(int[] a, int[] b){
+        List<Integer> res = new ArrayList<>();
+        for(int i = 0; i < a.length - b.length + 1; i++){
+            boolean isSub = true;
+            for(int j = 0; j < b.length; j++){
+                if(a[i + j] != b[j]){
+                    isSub = false;
+                    break;
+                }
+            }
+            if(isSub){
+                res.add(i);
+            }
+        }
+        return res;
+    }
+
     public static void main(String[] args) {
         int[] a = {2, 3, 0, 3, 0, 3, 0};
         int[] b = {3, 0, 3, 0};
+
+        System.out.println(approach2(a, b));
 
         List<Integer> res = search(a, b);
             for (int idx : res)
